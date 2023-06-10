@@ -13,7 +13,7 @@ const Chat = () => {
   const location = useLocation();
   const [name, setName] = useState('');
   const [room, setRoom] = useState('');
-  const ENDPOINT = 'localhost:5000';
+  const ENDPOINT = 'https://realtime-chat-app-1b3e.onrender.com/';
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
 
